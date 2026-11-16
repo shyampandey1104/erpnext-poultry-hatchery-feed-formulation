@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "erpnext_poultry_hatchery_feed_formulation"
+version = "1.0.0"
+description = "Erpnext Poultry Hatchery Feed Formulation - Official Frappe Framework App"
+authors = [{ name = "Shyamkumar Pandey", email = "shyampandey1104@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "frappe"
+]

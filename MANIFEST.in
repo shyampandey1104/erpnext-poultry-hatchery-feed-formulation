@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include poultry *.css
+recursive-include poultry *.csv
+recursive-include poultry *.html
+recursive-include poultry *.ico
+recursive-include poultry *.js
+recursive-include poultry *.json
+recursive-include poultry *.md
+recursive-include poultry *.png
+recursive-include poultry *.py
+recursive-include poultry *.svg
+recursive-include poultry *.txt
+recursive-exclude poultry *.pyc
